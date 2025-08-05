@@ -13,9 +13,12 @@ app.use(express.json());
 
 app.post('/register', async (req, res) => {
 	try {
-		const user = await register(req.body.login, req.body.password);
+		const { user, token } = await register(req.body.login, req.body.password);
 
-		res.send({ error: null, user: mapUser(user) });
+		res.cookie('token', token, { httpOnly: true }).send({
+			error: null,
+			user: mapUser(user),
+		});
 	} catch (e) {
 		res.send({ error: e.message || 'Unknown error' });
 	}
