@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import { User } from '../models/User.js';
-import generateToken from '../helpers/generateToken.js';
+import { generate } from '../helpers/token.js';
 
 // register
 
@@ -30,7 +30,7 @@ export async function login(login, password) {
 		throw new Error('Wrong ');
 	}
 
-	const token = generateToken({ id: user.id });
+	const token = generate({ id: user.id });
 
 	return { token, user };
 }
