@@ -1,0 +1,200 @@
+{
+  "users": [
+    {
+      "id": "001",
+      "login": "anton",
+      "password": "qwerty123",
+      "registed_at": "2050-09-22",
+      "role_id": 0
+    },
+    {
+      "id": "485a",
+      "login": "ivan",
+      "password": "123456",
+      "registed_at": "2061-12-09 15:16",
+      "role_id": 1
+    },
+    {
+      "login": "petr",
+      "password": "123456",
+      "registed_at": "2049-03-02 20:54",
+      "role_id": 2,
+      "id": "GSEfriw"
+    }
+  ],
+  "roles": [
+    {
+      "id": "0",
+      "name": "Администратор"
+    },
+    {
+      "id": "1",
+      "name": "Модератор"
+    },
+    {
+      "id": "2",
+      "name": "Читатель"
+    },
+    {
+      "id": "3",
+      "name": "Гость"
+    }
+  ],
+  "posts": [
+    {
+      "id": "002",
+      "title": "сделанные на базе интернет-аналитики выводы",
+      "image_url": "https://fastly.picsum.photos/id/984/280/150.jpg?hmac=euassnkw4L-LpUwbpybmjW07RMpQ8R4m38dRTtnIkrw",
+      "content": "Однозначно, представители современных социальных резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть разоблачены. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: синтетическое тестирование, а также свежий взгляд на привычные вещи — безусловно открывает новые горизонты для стандартных подходов!\n\nНаше дело не так однозначно, как может показаться: курс на социально-ориентированный национальный проект требует анализа новых принципов формирования материально-технической и кадровой базы. Равным образом, консультация с широким активом предопределяет высокую востребованность существующих финансовых и административных условий. Противоположная точка зрения подразумевает, что ключевые особенности структуры проекта смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.\n\nПротивоположная точка зрения подразумевает, что сделанные на базе интернет-аналитики выводы являются только методом политического участия и функционально разнесены на независимые элементы. В целом, конечно, понимание сути ресурсосберегающих технологий создаёт предпосылки для инновационных методов управления процессами.\n\nВ своём стремлении улучшить пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира, вне зависимости от их уровня, должны быть разоблачены! Имеется спорная точка зрения, гласящая примерно следующее: интерактивные прототипы, вне зависимости от их уровня, должны быть подвергнуты целой серии независимых исследований. Кстати, некоторые особенности внутренней политики лишь добавляют фракционных разногласий и объединены в целые кластеры себе подобных. С учётом сложившейся международной обстановки, начало повседневной работы по формированию позиции прекрасно подходит для реализации анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем, что сделанные на базе интернет-аналитики выводы и по сей день остаются уделом либералов, которые жаждут быть призваны к ответу. Также как высококачественный прототип будущего проекта требует определения и уточнения новых принципов формирования материально-технической и кадровой базы.",
+      "published_at": "2045-07-06"
+    },
+    {
+      "id": "8f3f",
+      "image_url": "https://fastly.picsum.photos/id/499/280/150.jpg?hmac=1A1MDjnvlmqOou310kzblaV58K42lFjaOOXbMnyt5Gc",
+      "published_at": "2052-04-17 02:51",
+      "title": "Статья как космические корабли бороздят просторы вселенной",
+      "content": "aaodpfmsdogm[ab[plgs\nbl\n[]skbp[sobopsnipfgnbipnb=\nsbfdsp=bdsfblsdlflsd"
+    },
+    {
+      "id": "3589",
+      "image_url": "https://fastly.picsum.photos/id/689/280/150.jpg?hmac=l9256ABzquQMVTdL81zMDJxd3IHXxAq41TPCuRcpJd8",
+      "published_at": "2060-08-21 18:37",
+      "title": "zfdsfsdbsgbgbsgb",
+      "content": "sbfabasbfadsasdf\ndslnnsdkng;sdn\\s\ndsldnksndkgbskbgvksd\nsdsdnk;gvnsk;dngv;skndgv"
+    },
+    {
+      "id": "d4bc",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "001",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "009",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "003",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "004",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "005",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "006",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "007",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    },
+    {
+      "id": "008",
+      "image_url": "https://fastly.picsum.photos/id/906/280/150.jpg?hmac=VriaQy5RZCaRFJEj0XY1TN2RBuZGwaqmU4uzh5zoRaI",
+      "published_at": "2051-10-17 19:32",
+      "title": "sfsdfsdfsdfsdf",
+      "content": "sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf"
+    }
+  ],
+  "comments": [
+    {
+      "id": "84b4",
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2044-03-26 01:45",
+      "content": "Первый комментарий"
+    },
+    {
+      "id": "3f0a",
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2054-09-27 04:14",
+      "content": "Первый комментарий 2"
+    },
+    {
+      "id": "8be0",
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2044-01-14 09:58",
+      "content": "Первый комментарий 3"
+    },
+    {
+      "id": "b60a",
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2040-05-14 16:24",
+      "content": "Первый комментарий 4"
+    },
+    {
+      "author_id": "GSEfriw",
+      "post_id": "002",
+      "published_at": "2050-05-26 20:26",
+      "content": "комментарий от Петра",
+      "id": "HEA1H5f"
+    },
+    {
+      "author_id": "GSEfriw",
+      "post_id": "002",
+      "published_at": "2061-07-15 23:24",
+      "content": "новый комментарий от Петра",
+      "id": "caMTZ4A"
+    },
+    {
+      "author_id": "GSEfriw",
+      "post_id": "002",
+      "published_at": "2043-08-27 06:04",
+      "content": "sddssfsdfsdfsdfsd",
+      "id": "uOlrNto"
+    },
+    {
+      "author_id": "GSEfriw",
+      "post_id": "002",
+      "published_at": "2042-03-23 15:01",
+      "content": "dfsd sdvsv  sdvsdv",
+      "id": "xNv-KfQ"
+    }
+  ],
+  "sessions": [
+    {
+      "hash": "0.09790667066329727941109695166232995688915252685547",
+      "user": {
+        "id": "001",
+        "login": "anton",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-22",
+        "roleId": 0
+      },
+      "id": 1
+    }
+  ]
+}

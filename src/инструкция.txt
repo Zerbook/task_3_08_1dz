@@ -1,0 +1,33 @@
+// npm install json-server
+
+// npx json-server src/db.json
+
+npm install json-server@0.17.0
+
+npm run jsondb
+
+npm run dev
+
+
+
+----- РЕКОМЕНДУЕТ ----------
+npm i -g json-server
+
+npm i styled-components prop-types react-hook-form yup react-router redux redux-thunk react-redux
+
+Блог о веб-разработке
+
+Иконочный шрифт: fontawesome.ru
+
+https://picsum.photos/280/150
+
+https://home.openweathermap.org/api_keys
+
+npm i @hookform/resolvers
+
+# проверка sessionStorage в браузере: sessionStorage
+
+===== 3 Модуль практика =======
+
+npm i express cookie-parser mongoose jsonwebtoken bcrypt validator nodemon
+
