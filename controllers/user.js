@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt';
 import { User } from '../models/User.js';
 import { generate } from '../helpers/token.js';
-import { ADMIN, MODERATOR, USER } from '../constants/roles.js';
+import { ROLES } from '../constants/roles.js';
 
 // register
 
@@ -37,15 +37,15 @@ export async function login(login, password) {
 	return { token, user };
 }
 
-export function getUser() {
+export function getUsers() {
 	return User.find();
 }
 
 export function getRoles() {
 	return [
-		{ id: ADMIN, name: 'Admin' },
-		{ id: MODERATOR, name: 'Moderator' },
-		{ id: USER, name: 'User' },
+		{ id: ROLES.ADMIN, name: 'Admin' },
+		{ id: ROLES.MODERATOR, name: 'Moderator' },
+		{ id: ROLES.USER, name: 'User' },
 	];
 }
 

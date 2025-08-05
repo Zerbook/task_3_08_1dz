@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import { USER } from '../constants/roles.js';
+import { ROLES } from '../constants/roles.js';
 
 const UserSchema = mongoose.Schema(
 	{
@@ -14,7 +14,7 @@ const UserSchema = mongoose.Schema(
 		},
 		role: {
 			type: Number,
-			default: USER,
+			default: ROLES.USER,
 		},
 	},
 	{ timestamps: true },
