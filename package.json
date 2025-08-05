@@ -4,12 +4,13 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
-		"dev": "vite",
+		"dev": "nodemon app.js",
 		"build": "vite build",
 		"lint": "eslint .",
 		"preview": "vite preview",
 		"format": "prettier --write ./src",
-		"jsondb": "node serverdb.js"
+		"jsondb": "node serverdb.js",
+		"dev2": "vite"
 	},
 	"dependencies": {
 		"@hookform/resolvers": "^5.0.1",

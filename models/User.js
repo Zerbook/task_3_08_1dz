@@ -1,11 +1,12 @@
 import mongoose from 'mongoose';
-import roles from '../constants/roles';
+import { USER } from '../constants/roles.js';
 
 const UserSchema = mongoose.Schema(
 	{
 		login: {
 			type: String,
 			required: true,
+			unique: true,
 		},
 		password: {
 			type: String,
@@ -13,7 +14,7 @@ const UserSchema = mongoose.Schema(
 		},
 		role: {
 			type: Number,
-			default: roles.USER,
+			default: USER,
 		},
 	},
 	{ timestamps: true },

@@ -31,3 +31,5 @@ npm i @hookform/resolvers
 
 npm i express cookie-parser mongoose jsonwebtoken bcrypt validator nodemon
 
+расширение: Thunder Client
+
