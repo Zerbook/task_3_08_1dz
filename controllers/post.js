@@ -1,4 +1,4 @@
-import { Post } from '../models/Post';
+import { Post } from '../models/Post.js';
 
 // add
 export function addPost(post) {
@@ -27,7 +27,7 @@ export async function getPosts(search = '', limit = 10, page = 1) {
 	]);
 	return {
 		posts,
-		lastPage: Math.ceil(),
+		lastPage: Math.ceil(count / limit),
 	};
 }
 

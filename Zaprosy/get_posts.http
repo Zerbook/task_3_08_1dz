@@ -1,0 +1,7 @@
+# GET http://localhost:3001/posts?limit=1 HTTP/1.1
+
+GET http://localhost:3001/posts?limit=1&page=2 HTTP/1.1
+
+
+
+

@@ -1,0 +1,5 @@
+GET http://localhost:3001/posts/6892f876eccc244031d2fdd2 HTTP/1.1
+
+
+
+

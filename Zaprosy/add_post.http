@@ -1,0 +1,10 @@
+POST http://localhost:3001/posts HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "top post ever 55555",
+  "content": "test post 55555",
+  "imageUrl": "https://fastly.picsum.photos/id/984/280/150.jpg?hmac=euassnkw4L-LpUwbpybmjW07RMpQ8R4m38dRTtnIkrw"
+}
+
+
