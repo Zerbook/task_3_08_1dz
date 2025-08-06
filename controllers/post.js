@@ -1,13 +1,27 @@
+import { populate } from 'dotenv';
 import { Post } from '../models/Post.js';
 
 // add
-export function addPost(post) {
-	return Post.create(post);
+export async function addPost(post) {
+	const newPost = await Post.create(post);
+
+	await newPost.populate({
+		path: 'comments',
+		populate: 'author',
+	});
+
+	return newPost;
 }
 
 // edit
 export async function editPost(id, post) {
 	const newPost = await Post.findByIdAndUpdate(id, post, { returnDocument: 'after' });
+
+	await newPost.populate({
+		path: 'comments',
+		populate: 'author',
+	});
+
 	return newPost;
 }
 
@@ -33,5 +47,8 @@ export async function getPosts(search = '', limit = 10, page = 1) {
 
 // get item
 export function getPost(id) {
-	return Post.findById(id);
+	return Post.findById(id).populate({
+		path: 'comments',
+		populate: 'author',
+	});
 }

@@ -3,6 +3,8 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cookieParser from 'cookie-parser';
 import 'dotenv/config';
+import authenticated from './middlewares/authenticated.js';
+import hasRole from './middlewares/hasRole.js';
 import {
 	register,
 	login,
@@ -12,11 +14,11 @@ import {
 	deleteUser,
 } from './controllers/user.js';
 import { addPost, deletePost, editPost, getPost, getPosts } from './controllers/post.js';
+import { addComment, deleteComment } from './controllers/comment.js';
 import mapUser from './helpers/mapUser.js';
-import authenticated from './middlewares/authenticated.js';
-import hasRole from './middlewares/hasRole.js';
-import { ROLES } from './constants/roles.js';
 import mapPost from './helpers/mapPost.js';
+import { ROLES } from './constants/roles.js';
+import mapComment from './helpers/mapComment.js';
 
 const port = 3001;
 const app = express();
@@ -70,6 +72,25 @@ app.get('/posts/:id', async (req, res) => {
 });
 
 app.use(authenticated);
+
+app.post('/posts/:id/comments', async (req, res) => {
+	const newComment = await addComment(req.params.id, {
+		content: req.body.content,
+		author: req.user.id,
+	});
+
+	res.send({ data: mapComment(newComment) });
+});
+
+app.delete(
+	'/posts/:postId/comments/:commentId',
+	hasRole([ROLES.ADMIN, ROLES.MODERATOR]),
+	async (req, res) => {
+		await deleteComment(req.params.postId, req.params.commentId);
+
+		res.send({ error: null });
+	},
+);
 
 app.post('/posts', hasRole([ROLES.ADMIN]), async (req, res) => {
 	const newPost = await addPost({

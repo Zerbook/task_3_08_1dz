@@ -1,0 +1,7 @@
+DELETE http://localhost:3001/posts/6892f876eccc244031d2fdd2/comments/6893145ff83a1c75deab1396 HTTP/1.1
+Content-Type: application/json
+
+
+
+
+

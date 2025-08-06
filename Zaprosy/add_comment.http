@@ -1,0 +1,10 @@
+POST http://localhost:3001/posts/6892f876eccc244031d2fdd2/comments HTTP/1.1
+Content-Type: application/json
+
+{
+  "content": "new comment4"
+}
+
+
+
+
